@@ -62,14 +62,3 @@ nav ul li {
     background: rgb(230, 115, 9);
     border-radius: 2px;
 }
-  
-.container{
-    background-color: #ece5c8;
-    color: #0e0e12;
-    margin: 2%;
-    display: flexbox;
-}
-
-li{
-    list-style: none;
-}

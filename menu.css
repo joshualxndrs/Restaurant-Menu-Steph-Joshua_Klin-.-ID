@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,17 +10,6 @@ body{
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
-}
-  
-.container {
-    width: 100%;
-    height: 100vh;
-    /* background-image: url(images/resto-background.png);
-    background-position: center;
-    background-size: cover;
-    padding-left: 5%;
-    padding-right: 8%;
-    box-sizing: border-box; */
 }
   
 .navbar {
@@ -62,14 +52,34 @@ nav ul li {
     background: rgb(230, 115, 9);
     border-radius: 2px;
 }
-  
+
+h1{
+    font-family: 'Fruktur', cursive;;
+}
+
 .container{
-    background-color: #ece5c8;
+    background-image: url(images/menu-background.jpg);
     color: #0e0e12;
     margin: 2%;
-    display: flexbox;
+    display: flex;
+    min-height: auto;
+    border: #0e0e12 solid 2px ;
 }
 
 li{
     list-style: none;
+}
+
+.list{
+    margin: 2%;
+    padding: 2%;
+}
+
+.left{
+    min-width: 50%;
+    border-right: 1px solid #0e0e12;
+}
+
+.right{
+    min-width: 50%;
 }

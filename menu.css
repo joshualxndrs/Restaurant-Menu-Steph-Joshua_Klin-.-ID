@@ -44,7 +44,7 @@ nav ul li {
     font-family: "Roboto", sans-serif;
     transition: 0.4s;
     font-weight: bold;
-    padding-left: 10%;
+    margin: 10%;
 }
   
 .navbar ul li a.active,

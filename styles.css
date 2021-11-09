@@ -4,7 +4,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-body{
+body {
   background-image: url(images/resto-background.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -73,7 +73,7 @@ nav li {
   align-items: center;
 }
 
-.col{
+.col {
   flex-basis: 50%;
 }
 
@@ -81,7 +81,7 @@ nav li {
   flex-basis: 50%;
 }
 
-.col2{
+.col2 {
   flex-basis: 50%;
 }
 
@@ -150,12 +150,11 @@ h5 {
   text-shadow: 0 0 5px #999;
 }
 
-@media (orientation : portrait) {
-  .row{
+@media (orientation: portrait) {
+  .row {
     grid-template-areas:
-    "col"
-    "col1"
-    "col2"
+      "col"
+      "col1"
+      "col2";
   }
-  
 }

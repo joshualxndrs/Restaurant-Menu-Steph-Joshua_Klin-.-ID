@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,15 +13,14 @@ body {
   box-sizing: border-box;
 }
 
+h1{
+  font-family: "Fruktur", cursive;
+}
+
 .container {
   width: 100%;
   height: 100vh;
-  /* background-image: url(images/resto-background.png);
-    background-position: center;
-    background-size: cover;
-    padding-left: 5%;
-    padding-right: 8%;
-    box-sizing: border-box; */
+  margin: 4%;
 }
 
 .navbar {
@@ -137,7 +137,26 @@ nav li {
 .content-section .social i:hover {
   color: coral;
 }
-@media screen and (max-width: 768px) {
+
+button {
+  width: 220px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 12px 0;
+  background: rgb(230, 115, 9);
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background: coral;
+}
+
+@media (orientation: portrait) {
   .container {
     width: 80%;
     display: block;
@@ -174,5 +193,8 @@ nav li {
   }
   .content-section .social {
     text-align: center;
+  }
+  .links{
+    font-size: small;
   }
 }

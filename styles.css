@@ -1,28 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&display=swap");
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 
 body {
   background-image: url(images/resto-background.png);
   background-position: center;
-  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
+
 }
 
 .container {
   width: 100%;
   height: 100vh;
   margin: 4%;
-  /* background-image: url(images/resto-background.png);
-  background-position: center;
-  background-size: cover;
-  padding-left: 5%;
-  padding-right: 8%;
-  box-sizing: border-box; */
 }
 
 .navbar {
@@ -69,12 +66,12 @@ nav li {
 
 .row {
   display: flex;
-  height: 88%;
+  /* height: 88%; */
   align-items: center;
 }
 
 .col {
-  flex-basis: 50%;
+  flex-basis: auto;
 }
 
 .col1 {
@@ -151,10 +148,40 @@ h5 {
 }
 
 @media (orientation: portrait) {
-  .row {
-    grid-template-areas:
-      "col"
-      "col1"
-      "col2";
+  .container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+  }
+  .col {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .col1{
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .col2 {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .col1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .col .title {
+    text-align: center;
+  }
+  .navbar{
+    text-align: left;
   }
 }

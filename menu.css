@@ -69,6 +69,8 @@ h1 {
   display: flex;
   min-height: auto;
   border: #0e0e12 solid 2px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 li {
@@ -88,12 +90,13 @@ li {
 .right {
   min-width: 50%;
 }
+
 button {
   width: 220px;
   color: white;
   font-size: 22px;
   font-weight: bold;
-  padding: 12px 0;
+  padding: 12px;
   background: rgb(230, 115, 9);
   border: 0;
   border-radius: 20px;
@@ -104,4 +107,8 @@ button {
 
 .button button:hover {
   background: coral;
+}
+
+.setButton{
+  padding-left:5%;
 }

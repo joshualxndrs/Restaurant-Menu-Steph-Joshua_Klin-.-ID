@@ -126,17 +126,7 @@ nav li {
   color: white;
 }
 
-.content-section .social {
-  margin: 40px 40px;
-}
-.content-section .social i {
-  color: white;
-  font-size: 30px;
-  padding: 0px 10px;
-}
-.content-section .social i:hover {
-  color: coral;
-}
+
 
 button {
   width: 220px;
@@ -155,6 +145,7 @@ button {
 .button button:hover {
   background: coral;
 }
+
 
 @media (orientation: portrait) {
   .container {
